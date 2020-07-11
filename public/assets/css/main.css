@@ -7,7 +7,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
+/* html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
@@ -23,9 +23,9 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;} */
 
-article, aside, details, figcaption, figure,
+/* article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
@@ -70,11 +70,11 @@ input, select, textarea {
 	-webkit-appearance: none;
 	-ms-appearance: none;
 	appearance: none;
-}
+} */
 
 /* Basic */
 
-	html {
+	/* html {
 		box-sizing: border-box;
 	}
 
@@ -89,9 +89,9 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
-	}
+	} */
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
+		/* body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
 			-ms-animation: none !important;
@@ -100,17 +100,17 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		} */
 
-	input, textarea, select {
+	/* input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
-	}
+	} */
 
-	h1, h2, h3, h4, h5, h6 {
+	/* h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
@@ -119,9 +119,9 @@ input, select, textarea {
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 		color: inherit;
 		text-decoration: none;
-	}
+	} */
 
-		h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
+		/* h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
 			color: #333;
 		}
 
@@ -161,9 +161,9 @@ input, select, textarea {
 
 	em, i {
 		font-style: italic;
-	}
+	} */
 
-	a {
+	/* a {
 		text-decoration: none;
 		color: inherit;
 		border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
@@ -189,9 +189,9 @@ input, select, textarea {
 		position: relative;
 		top: -0.5em;
 		font-size: 0.8em;
-	}
+	} */
 
-	hr {
+	/* hr {
 		border: 0;
 		border-top: solid 1px #ddd;
 	}
@@ -208,17 +208,17 @@ input, select, textarea {
 
 	br.clear {
 		clear: both;
-	}
+	} */
 
 /* Container */
 
-	.container {
+	/* .container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
-	}
+	} */
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.container {
 				width: 1200px;
@@ -256,9 +256,9 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		}
+		} */
 
-/* Row */
+/* Row
 
 	.row {
 		display: flex;
@@ -499,9 +499,9 @@ input, select, textarea {
 
 				.row.gtr-200.gtr-uniform > * {
 					padding-top: 80px;
-				}
+				} */
 
-		@media screen and (min-width: 961px) and (max-width: 1880px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 			.row {
 				display: flex;
@@ -744,9 +744,9 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
-		}
+		} */
 
-		@media screen and (min-width: 961px) and (max-width: 1620px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1620px) {
 
 			.row {
 				display: flex;
@@ -989,9 +989,9 @@ input, select, textarea {
 							padding-top: 80px;
 						}
 
-		}
+		} */
 
-		@media screen and (min-width: 961px) and (max-width: 1320px) {
+		/* @media screen and (min-width: 961px) and (max-width: 1320px) {
 
 			.row {
 				display: flex;
@@ -1724,9 +1724,9 @@ input, select, textarea {
 							padding-top: 40px;
 						}
 
-		}
+		} */
 
-/* Sections/Article */
+/* Sections/Article
 
 	section, article {
 		margin-bottom: 3em;
@@ -1740,11 +1740,11 @@ input, select, textarea {
 
 		.row > section, .row > article {
 			margin-bottom: 0;
-		}
+		} */
 
 /* Image */
 
-	.image {
+	/* .image {
 		display: inline-block;
 		border: 0;
 	}
@@ -1789,11 +1789,11 @@ input, select, textarea {
 			.image.centered img {
 				margin: 0 auto;
 				width: auto;
-			}
+			} */
 
 /* List */
 
-	ul {
+	/* ul {
 		list-style: disc;
 		padding-left: 1em;
 	}
@@ -1809,11 +1809,11 @@ input, select, textarea {
 
 		ol li {
 			padding-left: 0.25em;
-		}
+		} */
 
 /* Icons */
 
-	ul.icons {
+	/* ul.icons {
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
@@ -1831,11 +1831,11 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-		}
+		} */
 
 /* Form */
 
-	form label {
+	/* form label {
 		display: block;
 		text-align: left;
 		margin-bottom: 0.5em;
@@ -1905,7 +1905,7 @@ input, select, textarea {
 	}
 
 /* Table */
-
+/* 
 	table {
 		width: 100%;
 		text-align: left;
@@ -1933,11 +1933,11 @@ input, select, textarea {
 
 		table tfoot {
 			background: #eee;
-		}
+		}  */
 
 /* Button */
 
-	input[type="button"],
+	/* input[type="button"],
 	input[type="submit"],
 	input[type="reset"],
 	button,
@@ -1975,11 +1975,11 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: #7eaeac;
-		}
+		} */
 
 /* Item */
 
-	.item {
+	/* .item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
 	}
@@ -1993,11 +1993,11 @@ input, select, textarea {
 
 			.item header h3 {
 				font-size: 1em;
-			}
+			} */
 
 /* Icons */
 
-	.icon {
+	/* .icon {
 		text-decoration: none;
 	}
 
@@ -2015,11 +2015,11 @@ input, select, textarea {
 
 		.icon > .label {
 			display: none;
-		}
+		} */
 
 /* Header */
 
-	#header {
+	/* #header {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2078,9 +2078,9 @@ input, select, textarea {
 
 				#header .icons a:hover {
 					color: #fff;
-				}
+				} */
 
-	#logo {
+	/* #logo {
 		position: relative;
 		margin: 1.75em 1.5em 1.5em 1.5em;
 		min-height: 48px;
@@ -2108,9 +2108,9 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-		}
+		} */
 
-	#nav ul {
+	/* #nav ul {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
@@ -2156,11 +2156,11 @@ input, select, textarea {
 
 					#nav ul li a.active span:before {
 						color: #e27689;
-					}
+					} */
 
 /* Footer */
 
-	#footer {
+	/* #footer {
 		margin-left: 375px;
 		text-align: center;
 		background-color: #dce3e2;
@@ -2186,11 +2186,11 @@ input, select, textarea {
 					border-left: 0;
 					padding-left: 0;
 					margin-left: 0;
-				}
+				} */
 
 /* Main */
 
-	#main {
+	/* #main {
 		margin-left: 375px;
 	}
 
@@ -2247,31 +2247,31 @@ input, select, textarea {
 
 			#main > section.four {
 				background-color: #e8edec;
-			}
+			} */
 
 /* Wide */
 
-	@media screen and (min-width: 961px) and (max-width: 1880px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
-		/* Basic */
+		
 
 			body, input, textarea, select {
 				font-size: 17pt;
 			}
 
-		/* Header */
+		
 
 			#header {
 				width: 300px;
 			}
 
-		/* Footer */
+		
 
 			#footer {
 				margin-left: 300px;
 			}
 
-		/* Main */
+		
 
 			#main {
 				margin-left: 300px;
@@ -2279,11 +2279,11 @@ input, select, textarea {
 
 	}
 
-/* Normal */
+
 
 	@media screen and (min-width: 961px) and (max-width: 1620px) {
 
-		/* Main */
+	
 
 			#main > section {
 				padding: 3em 0;
@@ -2295,11 +2295,11 @@ input, select, textarea {
 
 	}
 
-/* Narrow */
+
 
 	@media screen and (min-width: 961px) and (max-width: 1320px) {
 
-		/* Basic */
+		
 
 			body, input, textarea, select {
 				font-size: 16pt;
@@ -2309,19 +2309,19 @@ input, select, textarea {
 				padding: 0 2em 0 2em;
 			}
 
-		/* Icons */
+		
 
 			ul.icons li a {
 				width: 1.75em;
 			}
 
-		/* Item */
+	
 
 			.item {
 				margin-bottom: 20px;
 			}
 
-		/* Header */
+		
 
 			#header {
 				width: 20%;
@@ -2348,13 +2348,13 @@ input, select, textarea {
 						line-height: 2.25em;
 					}
 
-		/* Footer */
+		
 
 			#footer {
 				margin-left: 20%;
 			}
 
-		/* Main */
+		
 
 			#main {
 				margin-left: 20%;
@@ -2362,7 +2362,7 @@ input, select, textarea {
 
 	}
 
-/* Narrower */
+
 
 	#headerToggle {
 		display: none;
@@ -2370,7 +2370,7 @@ input, select, textarea {
 
 	@media screen and (max-width: 960px) {
 
-		/* Basic */
+		
 
 			html, body {
 				overflow-x: hidden;
@@ -2388,20 +2388,20 @@ input, select, textarea {
 				padding: 0 2em 0 2em;
 			}
 
-		/* Item */
+		
 
 			.item {
 				margin-bottom: 15px;
 			}
 
-		/* Icons */
+		
 
 			ul.icons a {
 				width: 1.75em;
 				font-size: 1.25em;
 			}
 
-		/* Header */
+		
 
 			#header {
 				-moz-backface-visibility: hidden;
@@ -2520,16 +2520,16 @@ input, select, textarea {
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
-			}
+			} */
 
 		/* Footer */
 
-			#footer {
+			/* #footer {
 				margin-left: 0;
-			}
+			} */
 
 		/* Main */
-
+/* 
 			#main {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -2551,15 +2551,15 @@ input, select, textarea {
 					padding: 4em 0;
 				}
 
-	}
+	} */
 
 /* Mobile */
 
-	@media screen and (max-width: 736px) {
+	/* @media screen and (max-width: 736px) { */
 
 		/* Basic */
 
-			body, input, textarea, select {
+			/* body, input, textarea, select {
 				font-size: 14pt;
 			}
 
@@ -2571,17 +2571,17 @@ input, select, textarea {
 
 			.container {
 				padding: 0 15px 0 15px;
-			}
+			} */
 
 		/* List */
 
-			ul.icons a {
+			/* ul.icons a {
 				width: 2em;
 				font-size: 1.25em;
-			}
+			} */
 
 		/* Main */
-
+/* 
 			#main > section {
 				padding: 2em 0;
 			}
@@ -2592,11 +2592,11 @@ input, select, textarea {
 
 				#main section.cover header {
 					padding: 0 1em;
-				}
+				} */
 
 		/* Footer */
 
-			#footer .copyright li {
+			/* #footer .copyright li {
 				display: block;
 				line-height: 1.25em;
 				border: 0;
@@ -2608,4 +2608,4 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-	}
+	} */
