@@ -1,5 +1,5 @@
-@import url("font-awesome.min.css");
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+/* @import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600"); */
 
 /*
 	Prologue by HTML5 UP
@@ -72,7 +72,7 @@ input, select, textarea {
 	appearance: none;
 } */
 
-/* Basic */
+ /* Basic */
 
 	/* html {
 		box-sizing: border-box;
@@ -1481,7 +1481,8 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 736px) 
+		{
 
 			.row {
 				display: flex;
